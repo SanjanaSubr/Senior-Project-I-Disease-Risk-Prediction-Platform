@@ -1,0 +1,117 @@
+<html>
+    <body bgcolor=white>
+
+        <center>
+
+        <h1> Diabetes Prediction </h1><br>
+        
+        <form method="POST" action="{{ url_for('predict') }}">
+            <b>
+                <br><br>
+                Age:
+                <input type="number" name="age" min="0" max="110" placeholder="Enter Age">
+                <br><br>
+                High Blood Pressure:
+                <select name="highbp">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+                <br><br>
+                High Cholesterol:
+                <select name="highchol">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+                <br><br>
+                Checked Cholesterol (Last 5 Years):
+                <select name="cholcheck">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+                <br><br>
+                BMI:
+                <input type="float" name="bmi" placeholder="Enter BMI">
+                <br><br>
+                Smoker:
+                <select name="smoker">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+                <br><br>
+                Stroke:
+                <select name="stroke">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+                <br><br>
+                Heart Disease or Attack:
+                <select name="heartdisease">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+                <br><br>
+                Physical Activity:
+                <select name="physactivity">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+                <br><br>
+                Veggies Consumption:
+                <select name="veggies">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+                <br><br>
+                Heavy Alcohol Consumption:
+                <select name="hvalcohol">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+                <br><br>
+                General Health:
+                <select name="genhlth">
+                    <option value="1">Excellent *****</option>
+                    <option value="2">Very Good ****</option>
+                    <option value="2">Good ***</option>
+                    <option value="2">Fair **</option>
+                    <option value="2">Poor *</option>
+                    <!-- Add more options for different health ratings -->
+                </select>
+                <br><br>
+                <br><br>
+                <label for="menthlth">How many days in the past 30 days do you think you have had poor mental health?</label>
+                <input type="number" name="menthlth" min="0" max="30" placeholder="Enter the number of days">
+                <br><br>
+                Physical Health: (In the past 30 days, have you been doing physical activity?
+                Not including your SEDENTARY job?)
+                <input type="number" name="physhlth" min="0" max="30" placeholder="Enter Physical Health">
+                <br><br>
+                Difficulty Walking:
+                <select name="diffwalk">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+                <br><br>
+                Education:
+                <select name="education">
+                    <option value="1">Never attended school or only kindergarten</option>
+                    <option value="2">Attended Elementary</option>
+                    <option value="3">Attended High School</option>
+                    <option value="4">Attended College, no degree</option>
+                    <option value="5">Bachelors Degree</option>
+                    <option value="6">Advanced Degree</option>
+                </select>
+                <br><br>
+                Income:
+                <input type="int" name="income" placeholder="Enter Income">
+            </b>
+            <br><br>
+            <input type="submit" value="Predict">
+        </form>
+
+        
+        
+    </center>
+
+    </body>
+</html>
