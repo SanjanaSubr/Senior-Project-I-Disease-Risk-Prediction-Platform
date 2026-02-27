@@ -148,7 +148,10 @@ This project was formally presented at the Senior Project Exhibition under the s
 Dr. Anilkumar Kothalil Gopalakrishnan  
 Department of Computer Science, Assumption University
 
-[View Project Poster](LifeFactors Poster Senior Project.pdf)
+### Senior Project Exhibition Poster
+<p align="center">
+  <img src="Exhibit Poster.png" width="800">
+</p>
 
 ---
 
