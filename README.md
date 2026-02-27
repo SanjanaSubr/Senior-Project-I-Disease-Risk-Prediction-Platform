@@ -153,17 +153,5 @@ Department of Computer Science, Assumption University
   <img src="Exhibit Poster.png" width="800">
 </p>
 
----
-
-## What This Project Demonstrates
-
-- Applied supervised machine learning in healthcare
-- Feature importance analysis using IV/WOE
-- Hyperparameter optimization with cross-validation
-- Comparative model evaluation
-- End-to-end ML deployment in a web application
-- Research-driven development in a collaborative team
 
 ---
-
-LifeFactors reflects the integration of machine learning and healthcare analytics, demonstrating how predictive modeling can support early risk identification in chronic diseases.
